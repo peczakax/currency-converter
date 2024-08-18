@@ -8,5 +8,39 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+compile_commands.json
+CTestTestfile.cmake
+*.venv
+
+# Visual Studio Code
+.vscode/
 _deps
 CMakeUserPresets.json
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+obj/
+bin/
+Debug/
+Release/
+
